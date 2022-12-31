@@ -5,9 +5,17 @@ export default function Home() {
       <Head>
         <title>Board - Organizando suas tarefas.</title>
       </Head>
-      <div>
-        <h1>Primeiro projeto com NextJS</h1>
-      </div>
+      <main>
+        <img src="/images/board-user.svg" alt="board tool"/>
+
+        <section>
+          <h1>Uma ferramenta para seu dia a dia etc etc</h1>
+          <p>
+            <span>100% Gratuita</span> e online.
+          </p>
+        </section>
+      </main>
+
     </>
   )
 }
