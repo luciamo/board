@@ -1,21 +1,22 @@
 import Head from "next/head"
+import styles from "../styles/style.module.scss"
+
 export default function Home() {
   return (
     <>
       <Head>
         <title>Board - Organizando suas tarefas.</title>
       </Head>
-      <main>
+      <main className={styles.contentContainer}>
         <img src="/images/board-user.svg" alt="board tool"/>
 
-        <section>
-          <h1>Uma ferramenta para seu dia a dia etc etc</h1>
+        <section className={styles.callToAction}>
+          <h1>Uma ferramenta para seu dia a dia Escreva, planeje e organize-se...</h1>
           <p>
             <span>100% Gratuita</span> e online.
           </p>
         </section>
       </main>
-
     </>
   )
 }
