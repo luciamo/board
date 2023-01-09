@@ -1,7 +1,6 @@
 .headerContainer {
   height: 6rem;
   background-color: #141a29;
-
 }
 
 .headerContent {
@@ -25,8 +24,7 @@
       padding: 0 0.5rem;
       height: 5rem;
       line-height: 5rem;
-      color: #fff;
-
+      color: #FFF;
       & + a { //a partir do segundo item
         margin-left: 2rem;
       }
@@ -36,4 +34,5 @@
   button {
     margin-left: auto;
   }
+
 }
